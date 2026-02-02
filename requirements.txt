@@ -1,0 +1,21 @@
+# UNet variants for medical image segmentation (BUSI)
+# Python 3.8+ recommended. For GPU: install PyTorch with CUDA from https://pytorch.org
+
+# Core
+torch>=2.0.0
+torchvision>=0.15.0
+numpy>=1.21.0
+Pillow>=9.0.0
+
+# Dataset
+kagglehub>=0.3.0
+
+# Training / evaluation
+tqdm>=4.64.0
+
+# Visualization
+matplotlib>=3.5.0
+
+# Notebooks
+jupyter>=1.0.0
+ipykernel>=6.0.0
